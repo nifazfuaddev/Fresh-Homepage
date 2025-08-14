@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+    background-color: #FAE3B6;
+}
+
+.box {
+    display: flex;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar Start */
+
+nav {
+    background-color: #FAE3B6;
+    padding: 47px 0px;
+}
+
+nav .box{
+    align-items: center;
+}
+
+.logo {
+    width: 22%;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 59px;
+    cursor: pointer;
+}
+
+.menu ul li {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    width: 28%;
+    text-align: right;
+}
+
+.button a {
+    background-color: #FDBB57;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #050505;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.button a:first-child {
+    margin-right: 5px;
+}
+
+.button a:hover {
+    background-color: #FFD687;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Navbar End */
+
+/*Banner Start*/
+
+.banner{
+    background-color: #FAE3B6;
+    padding-top: 117px;
+    padding-bottom: 102px;
+}
+
+.banner .box{
+    justify-content: space-between;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    width: 538px;
+}
+
+.banner p{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding-top: 38px;
+    padding-bottom: 76px;
+    width: 500px;
+}
+
+.banner a{
+    background-color: black;
+    color: white;
+    padding: 25px 91px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.banner-image{
+    width: 50%;
+}
+
+/*Banner End*/
