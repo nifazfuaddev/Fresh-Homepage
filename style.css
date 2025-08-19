@@ -154,7 +154,7 @@ nav .box{
     font-family: "Frank Ruhl Libre", serif;
 }
 
-.container .box{
+.collection .box{
     justify-content: space-between;
     padding-top: 108px;
 }
@@ -214,6 +214,44 @@ nav .box{
     left: 20px;
 }
 
-
-
 /*Collection End*/
+
+/*Fashion Start*/
+
+.fashion .left{
+    width: 50%;
+}
+
+.fashion .left img{
+    width: 110%;
+}
+
+.fashion .right{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.fashion .box{
+    align-items: center;
+}
+
+.fashion .right h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+    padding-bottom: 63px;
+
+}
+
+.fashion .right p{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    width: 443px;
+
+}
+
+/*Fashion End*/
