@@ -6,6 +6,7 @@
 .container {
     width: 1290px;
     margin: 0 auto;
+    position: relative;
 }
 
 .box {
@@ -133,7 +134,6 @@ nav .box{
     background-color: rgb(224, 108, 141);
 }
 
-
 .banner-image{
     width: 50%;
 }
@@ -164,6 +164,7 @@ nav .box{
     height: 402px;
     position: relative;
     overflow: hidden;
+    
 }
 
 .collection .item img{
@@ -179,8 +180,7 @@ nav .box{
     top: 100%;
     left: 0;
     border-radius: 16px;
-    transition: .2s;
-    
+    transition: .2s;    
 }
 
 .collection .item:hover .overlay{
@@ -214,6 +214,13 @@ nav .box{
     left: 20px;
 }
 
+.collection .orange{
+    position: absolute;
+    bottom: -101px;
+    right: -66px;
+    z-index: -1;
+}
+
 /*Collection End*/
 
 /*Fashion Start*/
@@ -242,7 +249,6 @@ nav .box{
     font-family: "Frank Ruhl Libre", serif;
     width: 437px;
     padding-bottom: 63px;
-
 }
 
 .fashion .right p{
@@ -251,7 +257,173 @@ nav .box{
     color: black;
     font-family: "Poppins", sans-serif;
     width: 443px;
+}
 
+.fashion-content{
+    background-color: #FEECC8;
+    width: 791px;
+    height: 250px;
+    position: absolute;
+    top: 580px;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.fashion-content div{
+    border-right: 2px solid black;
+    padding-right: 40px;
+}
+
+.fashion-content div:nth-child(3){
+    border: transparent;
+    padding-right: 0px;
+}
+
+.fashion-text h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;   
+}
+
+.fashion-text p{
+    font-size: 28px;
+    font-weight: 500;  
+    font-family: "Poppins", sans-serif;
+}
+
+.fashion .dot{
+    position: absolute;
+    bottom: -274px;
+    left: 150px;
+}
+
+.fashion{
+    margin-bottom: 280px;
 }
 
 /*Fashion End*/
+
+/*Product Start*/
+
+.product{
+    background-color: #CFA485;
+    padding-top: 67px;
+    padding-bottom: 102px;
+}
+
+.product-content{
+    width: 40%;
+}
+
+.product-image{
+    width: 60%;
+}
+
+.product-content h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    top: 0;
+    left: 0px;
+}
+
+.product-content p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    padding-top: 31px;
+    padding-bottom: 100px;
+}
+
+.product-content a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #000000;
+    padding: 31px 78px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.product-content a:hover{
+    color: rgb(143, 73, 200);
+    background-color: rgb(224, 108, 141);
+}
+
+.product-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image .item{
+    position: relative;
+}
+
+.product-image .overlay{
+    width: 100%;
+    height: 142px;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    bottom: -73px;
+    left: 0;
+    opacity: 0;
+    transition: .4s;    
+}
+
+.product-image .item:hover .overlay{
+    bottom: 7px;
+    opacity: 1;
+}
+
+.product-image .item .overlay .icons i{
+    width: 10px;
+    color: #FDBB57;
+    padding-left: 14px;
+    padding-top: 17px;
+}
+
+.product-image .item .overlay .icons i:first-child{
+    padding-left: 24px;
+}
+
+.product-image .item .overlay .details{
+    padding-top: 17px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+.product-image .item .overlay .price{
+    display: flex;
+}
+
+.product-image .item .overlay .price p{
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+.product-image .item .overlay .price p:first-child{
+    padding-left: 24px;
+    color: #C4C4C4;
+}
+
+
+
+
+/*Product End*/
